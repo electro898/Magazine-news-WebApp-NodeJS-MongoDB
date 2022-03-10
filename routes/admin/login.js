@@ -29,7 +29,7 @@ router.use(session({
     resave: true,
     saveUninitialized: false,
     store: new MongoStore({
-        url: 'DBurl',
+        url: 'mongodb+srv://admin:Adijat1234.!@cluster0.bg92d.mongodb.net/projekti2?retryWrites=true&w=majority',
     })
 }));
 
