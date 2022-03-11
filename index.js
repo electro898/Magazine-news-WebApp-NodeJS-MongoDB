@@ -10,7 +10,7 @@ app.use(router);
 app.use('/admin', routerAdmin);
 const path = require('path');
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 4000;
 
 app.listen(port, err => {
     if(err) throw err;
